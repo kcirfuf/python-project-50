@@ -33,6 +33,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=kcirfuf
+            -Dsonar.projectKey=kcirfuf_python-project-50
             -Dsonar.organization=kcirfuf
             -Dsonar.python.coverage.reportPaths=coverage.xml
